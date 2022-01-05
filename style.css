@@ -1,0 +1,72 @@
+body{
+    background-color: gray;
+    margin: 0px;
+}
+.header {
+    padding: 80px; /* some padding */
+    text-align: center; /* center the text */
+    background: black; /* green background */
+    color: white; /* white text color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(NP-logo.png);
+    
+  }
+  .header h1 {
+    font-size: 40px;
+  }
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  /* Ensure proper sizing */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Column container */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: monospace;
+    font-size: 15px;
+   } 
+ .row .side h3 p{
+    text-align: justify;
+ }
+  
+  .row .main h3 p{
+      text-align: justify;
+  }
+  
+
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    flex: 30%; /* Set the width of the sidebar */
+    background-color: #f1f1f1; /* Grey background color */
+    padding: 20px; /* Some padding */
+  }
+  
+  /* Main column */
+  .main {
+    flex: 70%; /* Set the width of the main content */
+    background-color: white; /* White background color */
+    padding: 20px; /* Some padding */
+  }
+  .footer {
+    padding: 20px; /* Some padding */
+    text-align: center; /* Center text*/
+    background: #ddd; /* Grey background */
+  }
